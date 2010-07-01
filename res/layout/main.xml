@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:id="@+id/myLocationText"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+	/>
+	<Button android:text="Find repeaters" 
+			android:id="@+id/find_repeaters_text" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" android:layout_below="@+id/myLocationText">
+	</Button>
+	<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/find_repeaters_text" android:layout_toRightOf="@+id/find_repeaters_text" android:id="@+id/open_map" android:text="Show Map"></Button><ListView android:id="@+id/myListView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+	android:layout_below="@+id/find_repeaters_text">
+</ListView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<com.google.android.maps.MapView  
+	android:id="@+id/mapview1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:enabled="true"
+    android:clickable="true" 
+    android:apiKey="0Fsk4vqowt96ASJaMAEFXe3Y0-rIkolkwSV_xgQ"
+    />
+
+	<LinearLayout android:id="@+id/buttons"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		>
+		<Button android:text="Find repeaters" 
+			android:id="@+id/find_repeaters" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content">
+		</Button>
+	</LinearLayout>
+</RelativeLayout>
